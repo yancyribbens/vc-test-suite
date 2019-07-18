@@ -1,0 +1,6 @@
+{
+   "generator":"/usr/src/app/vc_parse.rb --issue",
+   "presentationGenerator":"/usr/src/app/vc_parse.rb --presentation",
+   "generatorOptions":"",
+   "sectionsNotSupported": ["jwt"]
+}
