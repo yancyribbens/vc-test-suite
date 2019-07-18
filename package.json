@@ -13,7 +13,7 @@
   "scripts": {
     "report": "mocha --recursive test/vc-data-model-1.0/ -R json > implementations/report.json",
     "summary": "cd implementations && node generate.js",
-    "test": "mocha --recursive test/vc-data-model-1.0/"
+    "test": "mocha --timeout 40000 --recursive test/vc-data-model-1.0/"
   },
   "repository": {
     "type": "git",
